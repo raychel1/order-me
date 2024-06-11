@@ -6,13 +6,15 @@ import '../App.css'
 function Header(){
     return(
         <>
-        <div className="header-first">
-            <div className='header-container'>
-            </div>
-        </div>
-        <div className="loginp">
-            <Link to = "/login"><ul className='text-c'>LOGIN</ul></Link>
-            </div>
+          <nav>
+        <ul id="menu-links">
+            <li>Home</li>
+            <li>Menu</li>
+            <li>Cart</li>
+            <li>Sign Up</li>
+            <li>Help</li>
+        </ul>
+        </nav>
         </>
     );
 }
