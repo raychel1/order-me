@@ -9,3 +9,10 @@ nav{
     border-bottom: 1px solid #000;
     z-index: 10;
 }
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
