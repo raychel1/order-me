@@ -11,10 +11,15 @@ function Header(){
             <li>Home</li>
             <li>Menu</li>
             <li>Cart</li>
-            <li>Sign Up</li>
+            <li>Order Tracking</li>
             <li>Help</li>
+            <button class="nav-barbtn">
+            Sign Up/Login 
+        </button>
         </ul>
+
         </nav>
+
         </>
     );
 }
