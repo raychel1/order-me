@@ -14,15 +14,15 @@ function Header(){
             <li>Cart</li>
             <li>Order Tracking</li>
             <li>Help</li>
-            <button class="nav-barbtn">
+            <button className="nav-barbtn">
             Sign Up/Login 
         </button>
         </ul>
     <header className="overlay-container">
         <div className='overlay-conatiner-1'>
-        <img src={`${process.env.PUBLIC_URL}/public/customer-service-logo.webp`} alt="Customer Service" className='image'/>
+        <img src={`${process.env.PUBLIC_URL}/customer-service-logo.webp`} alt="Customer Service" className='image'/>
         <div className="overlay">Customer Service</div>
-        <img src={`${process.env.PUBLIC_URL}/public/profile-logo.avif`} alt="Profile"  className='image'/>
+        <img src={`${process.env.PUBLIC_URL}/profile-logo.avif`} alt="Profile"  className='image'/>
         <div className="overlay">Profile</div>
         </div>
     </header>
