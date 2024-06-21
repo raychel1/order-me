@@ -13,7 +13,7 @@ function Header(){
             <li>Cart</li>
             <li>Order Tracking</li>
             <li>Help</li>
-            <button class="nav-barbtn">
+            <button className="nav-barbtn">
             Sign Up/Login 
         </button>
         </ul>
